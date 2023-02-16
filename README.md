@@ -1,3 +1,5 @@
+This repo is forked from https://github.com/taoyds/test-suite-sql-eval for the purpose of further analyis. We needed the evaluate method to return evaluation results, instead of only printing the results.
+
 # Semantic Evaluation for Text-to-SQL with Test Suites
 
 This repo contains test suite evaluation metric for 11 text-to-SQL tasks. Compared to other current metrics, test suite calculates a tighter upper-bound for semantic accuracy efficiently. It is proposed in our EMNLP 2020 paper: [Semantic Evaluation for Text-to-SQL with Distilled Test Suites](https://arxiv.org/abs/2010.02840). It is now the official metric of [Spider](https://yale-lily.github.io/spider), [SParC](https://yale-lily.github.io/sparc), and [CoSQL](https://yale-lily.github.io/cosql), and is also now available for Academic, ATIS, Advising, Geography, IMDB, Restaurants, Scholar, and Yelp (building on the amazing work by [Catherine and Jonathan](https://github.com/jkkummerfeld/text2sql-data)).
